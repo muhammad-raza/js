@@ -1,0 +1,61 @@
+#name,#class,#marks{
+	margin :auto 0;
+	padding :0;
+	
+}
+
+
+#myprogram {
+	
+	width: 80%;
+	
+}
+#btn{
+	display:none;
+}
+#hidden_text
+{
+	display:none;
+}
+.divv
+{
+	text-decoration:line-through;
+	
+	
+}
+#mydiv ul:li{
+	style:none;
+	background-color:pink;
+}
+#my_list{
+	list-style-type:none;
+	padding:0px;
+	margin:0px;
+	
+	
+}
+#my_list li{
+	padding: 10px 10px 10px 20px;
+	border-bottom: 1px solid pink;
+	
+}
+.button{
+	float:right;
+	color: red;
+	cursor:pointer;
+}
+input[type=checkbox]{
+	margin-right:20px;
+}
+#bin{
+	float:right;
+}
+.myclass
+{
+		text-decoration:line-through;
+
+}
+#save{
+	display:none;
+	
+}

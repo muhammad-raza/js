@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+
+</head>
+<body>
+
+<ul id="list_items">
+</ul>
+<script>
+
+
+
+var obj={ name:"bushra",
+class:"bcs",
+group:"new",
+head:{
+head1:"urdu",
+head2:"english",
+head3:"maths"
+}
+};
+var total="";
+for( key in obj.head){
+ total+='<li>'+obj.head[key]+'</li>';
+
+}
+var last=getElementById("list_items");
+last.innerHTML=total;
+
+
+</script>
+</body>
+</html>
