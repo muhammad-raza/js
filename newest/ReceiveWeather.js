@@ -6,7 +6,7 @@ function Weather(){
 Weather.prototype.getTextboxVal= function(searched_city){
 							var l =this;
 
-			$.ajax({
+			return $.ajax({
                     url: l.address +'location/search/?query='+searched_city,
 					success:function(data){
 					$.each(data,function(i,v){
